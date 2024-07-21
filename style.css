@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+}
+h1{
+    font-weight: 600;
+
+}
