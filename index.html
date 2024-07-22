@@ -15,13 +15,17 @@
    .hide{
     display: none;
    }
+   /* .section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+} */
   </style>
 </head>
-<body class="overflow-x-hidden bg-stone-200">
-  <header class=" h-screen ">
+<body  class="overflow-x-hidden ">
+  <header class="  mb-52">
 <div class="container mx-auto xl:max-w-[1200px] py-6">
 <div class="  md:absolute -top-32 -right-28 -z-10">
-  <img  class="sm:hidden md:block" src="/images/bg-tablet-pattern.svg" alt="">
+  <img  class="sm:hidden md:block" src="images/bg-tablet-pattern.svg" alt="">
 </div>
 
 
@@ -53,19 +57,105 @@
   
     </ul>
   </div>
-    <button class="sm:hidden md:block btn bg-[#EC633E] px-6 py-2  text-white rounded-full shadow-lg shadow-red-200 hover:bg-[#c25233] transition">Get Started</button>
+    <button class="sm:hidden md:block btn bg-[#EC633E] px-6 py-3  text-white rounded-full shadow-lg shadow-red-200 hover:bg-[#c25233] transition">Get Started</button>
     </nav>
 <div class="grid sm:grid-cols-1  md:grid-cols-2 md:justify-start items-center px-4 gap-4 gap-y-7 py-32">
   <div class="text-1 sm:text-center md:text-start">
 <h1 class="sm:text-4xl md:text-6xl   font-semibold mb-7 ">Bring everyone together to build better products.</h1>
 <p class="text-xl mb-7 text-gray-400">Manage makes it simple for software teams <br> to plan day-to-day tasks while keeping the <br> larger team goals in view</p>  
-<button class="sm:hidden md:block btn bg-[#EC633E] px-6 py-2  text-white rounded-full shadow-lg shadow-red-200 hover:bg-[#c25233] transition">Get Started</button>
+<button class="sm:hidden md:block btn bg-[#EC633E] px-6 py-3  text-white rounded-full shadow-lg shadow-red-200 hover:bg-[#c25233] transition">Get Started</button>
 
 </div>
 <img src="images/illustration-intro.svg" alt="">
 </div>
   </header>
 </div>
+<main class="">
+
+  <section class="m-20">
+    <div class="container mx-auto xl:max-w-[1200px] px-4">
+<div class="grid sm:grid-cols-1 md:grid-cols-2 gap-y-7 ">
+<div class="text-part2 sm:text-center md:text-start">
+<p class="text-5xl font-semibold" >
+  What's different about Manage?
+</p>
+<p class="text-sub-heading mt-10 text-xl text-gray-400 ">
+  Manage provides all the functionality your <br> team needs,  without the complexity. Our <br> software is tailor-made for modern digital <br> product teams.
+</p>
+
+</div>
+<div class="text-prt-3 grid gap-y-20">
+  <div class="section-grid">
+<p class="bg-[#EC633E] w-16 py-2 rounded-full text-white  font-semibold text-center"><span class="">01</span></p>
+
+<p class="heading-2 text-xl font-semibold">Track company-wide progress</p>
+<p class="sub-heading sm:start-1 sm:col-span-2 md:col-start-2	 text-xl text-gray-400">See how your day-to-day tasks fit into the wider vision. <br> Go from tracking progress at the  milestone  level all  the <br> way  done to the smallest of  details. Never lose  sight  of  <br> the bigger  picture again</p>
+</div>
+
+<div class="section-grid">
+  <p class="bg-[#EC633E] w-16 py-2 rounded-full text-white  font-semibold text-center"><span class="">02</span></p>
+  
+  <p class="heading-2 text-xl font-semibold">Everything you need in one place</p>
+  <p class="sub-heading sm:start-1 sm:col-span-2 md:col-start-2	 text-xl text-gray-400">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+  </div>
+  <div class="section-grid">
+    <p class="bg-[#EC633E] w-16 py-2 rounded-full text-white  font-semibold text-center"><span class="">03</span></p>
+    
+    <p class="heading-2 text-xl font-semibold">Advanced built-in reports</p>
+    <p class="sub-heading sm:start-1 sm:col-span-2 md:col-start-2	 text-xl text-gray-400">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed</p>
+    </div>
+
+</div>
+
+</div>
+
+
+    </div>
+  </section>
+<section class="slider m-20 section">
+<div  class="container mx-auto xl:max-w-[1200px] px-4">
+  <p class="text-center text-5xl m-12 font-semibold ">  What they’ve said
+  </p>
+<div class="grid sm:grid-cols-1 md:grid-cols-3 mt-24 gap-4">
+<div class="grid-1 bg-gray-100 relative text-center flex flex-col ">
+<img src="/images/avatar-ali.png" alt="" class="rounded-full w-20 self-center absolute  -translate-y-1/2" >
+<div class="py-7 px-3">
+<p class="font-semibold  mt-8">Ali Bravo</p>
+<p class="mt-5 text-gray-400"> “We have been able to cancel so many other subscriptions since using 
+  Manage. There is no more cross-channel confusion and everyone is much 
+  more focused.”</p>
+</div>
+</div>
+<div class="grid-1 bg-gray-100 relative text-center flex flex-col ">
+  <img src="images/avatar-anisha.png" alt="" class="rounded-full w-20 self-center absolute  -translate-y-1/2" >
+  <div class="py-7 px-3">
+  <p class="font-semibold  mt-8">  Anisha Li
+  </p>
+  <p class="mt-5 text-gray-400">“Manage has supercharged our team’s workflow. The ability to maintain 
+    visibility on larger milestones at all times keeps everyone motivated.”</p>
+  </div>
+  </div>
+  <div class="grid-1 bg-gray-100 relative text-center flex flex-col ">
+    <img src="images/avatar-richard.png" alt="" class="rounded-full w-20 self-center absolute  -translate-y-1/2" >
+    <div class="py-7 px-3">
+    <p class="font-semibold  mt-8">  Richard Watts
+    </p>
+    <p class="mt-5 text-gray-400"> “Manage allows us to provide structure and process. It keeps us organized 
+      and focused. I can’t stop recommending them to everyone I talk to!”</p>
+    </div>
+    </div>
+
+</div>
+<div class="flex justify-center mt-14">
+<button class="sm:hidden md:block btn bg-[#EC633E] px-6 py-3  text-white rounded-full shadow-lg shadow-red-200 hover:bg-[#c25233] transition">Get Started</button>
+
+</div>
+
+</div>  
+
+</section>
+
+</main>
   
 <!-- <div class="attribution">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

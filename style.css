@@ -11,3 +11,20 @@ h1{
     font-weight: 600;
 
 }
+
+.section-grid{
+    display:grid;
+    grid-template-columns: 6rem 1fr;
+    row-gap:20px;
+}
+.section {
+    position: relative;
+    background-image: url('images/bg-tablet-pattern.svg');
+    background-position: -400px top; /* Adjust the -100px value to your needs */
+    background-repeat: no-repeat;
+    background-size: left;
+    padding: 50px; /* Adjust padding to your needs */
+}
+
+
+
