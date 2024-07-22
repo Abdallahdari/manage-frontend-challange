@@ -624,6 +624,10 @@ video {
   margin: 5rem;
 }
 
+.m-40 {
+  margin: 10rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -649,6 +653,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -667,6 +675,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-16 {
@@ -697,6 +709,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -746,6 +762,11 @@ video {
 }
 
 .bg-\[\#EC633E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 99 62 / var(--tw-bg-opacity));
+}
+
+.bg-\[rgb\(236\2c 99\2c 62\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(236 99 62 / var(--tw-bg-opacity));
 }
@@ -805,6 +826,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-72 {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -817,6 +848,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-semibold {
@@ -918,6 +954,14 @@ h1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:justify-start {
+    justify-content: flex-start;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
@@ -957,8 +1001,16 @@ h1{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:text-start {
